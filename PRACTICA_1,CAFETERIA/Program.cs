@@ -82,16 +82,16 @@ namespace PRACTICA_1_CAFETERIA
             Console.WriteLine("\n");
             
             Console.WriteLine("PREPARANDO:");
-            Bebida1.Preparar();
-            Bebida2.Preparar();
-            Bebida3.Preparar();
+            Console.WriteLine(Bebida1.Preparar());
+            Console.WriteLine(Bebida2.Preparar());
+            Console.WriteLine(Bebida3.Preparar());
 
             Console.WriteLine("\n");
 
             Console.WriteLine("INFORMACION:");
-            Bebida1.MostrarDescripcion();
-            Bebida2.MostrarDescripcion();
-            Bebida3.MostrarDescripcion();
+            Console.WriteLine(Bebida1.MostrarDescripcion());
+            Console.WriteLine(Bebida2.MostrarDescripcion());
+            Console.WriteLine(Bebida3.MostrarDescripcion());
 
         }
     }

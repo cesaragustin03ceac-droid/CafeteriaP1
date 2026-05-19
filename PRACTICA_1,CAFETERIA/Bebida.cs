@@ -21,7 +21,7 @@ namespace PRACTICA_1_CAFETERIA
 
             public string Preparar()
             {
-                return("Preparando un: " + nombre + " |Tamaño: " + tamano);
+            return "Preparando un: " + nombre + " |Tamaño: " + tamano;
             }
 
             public void Descuento(float porcentaje)
@@ -32,7 +32,7 @@ namespace PRACTICA_1_CAFETERIA
 
             public string MostrarDescripcion()
             {
-                return("Esto es un" + nombre + "de tamaño " + tamano + " con un precio de " + precio);
+                return "Esto es un" + nombre + "de tamaño " + tamano + " con un precio de " + precio;
             }
 
         
