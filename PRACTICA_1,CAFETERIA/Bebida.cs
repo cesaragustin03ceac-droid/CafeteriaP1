@@ -19,9 +19,9 @@ namespace PRACTICA_1_CAFETERIA
                 this.precio = precio;
             }
 
-            public void Preparar()
+            public string Preparar()
             {
-                Console.WriteLine("Preparando un: " + nombre + " |Tamaño: " + tamano);
+                return("Preparando un: " + nombre + " |Tamaño: " + tamano);
             }
 
             public void Descuento(float porcentaje)
@@ -30,9 +30,9 @@ namespace PRACTICA_1_CAFETERIA
                 precio = precio - descuento;
             }
 
-            public void MostrarDescripcion()
+            public string MostrarDescripcion()
             {
-                Console.WriteLine("Esto es un" + nombre + "de tamaño " + tamano + " con un precio de " + precio);
+                return("Esto es un" + nombre + "de tamaño " + tamano + " con un precio de " + precio);
             }
 
         
